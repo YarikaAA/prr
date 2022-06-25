@@ -1,0 +1,21 @@
+{
+  "name": "anonymous-feedback-backend",
+  "version": "1.0.0",
+  "description": "Send and receive anonymous feedback without stress",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "harperive": "^2.0.1",
+    "mongoose": "^6.4.0",
+    "nodemon": "^2.0.13"
+  }
+}
