@@ -1,0 +1,80 @@
+.menu {
+  width: 300px;
+  /* height: 100%; */
+  /* padding-top: 5rem; */
+  margin-top: 5rem;
+  /* background-color: #ffefec; */
+}
+
+.menu button {
+  margin-right: 40px;
+  margin-bottom: 2rem;
+  color: var(--secondary);
+  color: var(--white);
+  background-color: #FF5733;
+  background-color: transparent;
+  border: none !important;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+/* hide the user button */
+.menu button:nth-child(5) {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .menu a {
+    text-decoration: none;
+  }
+  .menu button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem 0rem;
+    margin-top: 0.8rem;
+    margin-bottom: 1rem;
+    margin-right: 0.5rem;
+    gap: 0.5rem;
+  }
+}
+
+.menu .clerk-user-button {
+  display: none;
+}
+
+.cl-component.cl-user-button-popup {
+  z-index: 999;
+}
+
+.feedback-url {
+  width: 100%;
+  border: none;
+  font-size: 12px;
+}
+
+@media (min-width: 900px) {
+  .menu {
+    flex-direction: column;
+    margin-top: 0rem;
+  }
+
+  .menu button {
+    margin-right: 0rem;
+    padding: 6px 12px;
+    margin-right: 1rem;
+    flex-direction: row;
+    background-color: #FF5733;
+    width: 150px;
+  }
+  /* show the user button */
+  .menu button:nth-child(5) {
+    display: flex;
+    justify-content: center;
+  }
+
+  .menu button.copied-success {
+    background: #FF5733;
+  }
+}

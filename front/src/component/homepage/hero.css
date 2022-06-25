@@ -1,0 +1,75 @@
+.hero-container {
+  /* margin-top: 5rem; enable if the navbar should now be fixed*/
+  margin-top: 9rem;
+}
+
+.hero-container h1 {
+  font-size: 35px;
+  font-size: 33px;
+  line-height: 45px;
+  font-weight: 700;
+  /* background-color: var(--secondary);
+  background-image: linear-gradient(45deg, var(--secondary), var(--primary));
+  background-size: 100%;
+  background-clip: text; */
+  /* -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent; */
+}
+
+.hero-get-started {
+  margin-top: 50px;
+}
+section img {
+  width: 90px;
+  height: 80px;
+  margin-right: -15px;
+}
+section.anon {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-get-started .btn {
+  padding: 13px 150px;
+  color: var(--white);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 35px;
+  background-color: var(--secondary);
+  border: 1px solid var(--white);
+  /* background: linear-gradient(45deg, #f3ec78, #af4261); */
+
+  /* border: 1px solid var(--primary); */
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-get-started .btn:hover {
+  color: var(--white);
+}
+
+.hero-get-started .login {
+  margin-left: 1rem;
+  width: 141.1px;
+}
+
+@media (min-width: 900px) {
+  .hero-container {
+    margin-top: 5rem;
+  }
+
+  .hero-container h1 {
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 600px) {
+  .hero-container h1 {
+    font-size: 60px;
+    line-height: 80px;
+  }
+}

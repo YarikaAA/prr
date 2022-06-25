@@ -1,0 +1,67 @@
+.feedback-card {
+  width: 100%;
+  border-radius: 9px;
+  
+}
+
+.feedback-card .card-header {
+  border-top-left-radius: 9px;
+  border-top-right-radius: 9px;
+  background: var(--secondary);
+  background-color: #FF5733;
+}
+.card-body {
+  background-color: #fff;
+}
+.smiley {
+  color: #FF5733;
+  font-size: 20px;
+}
+
+.trash-feedback {
+  color: var(--secondary);
+  cursor: pointer;
+}
+
+.favourite-feedback {
+  cursor: pointer;
+  color: var(--white);
+}
+
+.favourite-feedback.starred {
+  color: var(--primary);
+}
+
+.card-text::first-letter {
+  text-transform: capitalize;
+}
+.card-text {
+  font-size: 30px;
+  font-family: sans-serif;
+}
+
+.share-feedback--btn {
+  background-color: #FF5733;
+  color: var(--white);
+  line-height: 1.4;
+  font-size: 14px;
+}
+.share-feedback--btn:hover {
+  color: var(--white);
+  border: 1px solid var(--primary);
+}
+.card-footer {
+  background-color: #FF5733;
+}
+
+.feedback-date {
+  color: var(--secondary);
+  font-weight: 500;
+}
+
+@media (min-width: 600px) {
+  .feedback-card {
+    /* width: 60%; */
+    border-radius: 9px;
+  }
+}
